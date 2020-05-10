@@ -65,7 +65,6 @@ export function setToken({ payload }) {
 }
 
 export function signOut() {
-  // history.push('/');
   Alert.alert('Sistema', 'Deslogado com sucesso!');
 }
 
